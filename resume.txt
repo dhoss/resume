@@ -134,7 +134,7 @@ Majored in Business Administration in Computer Information Systems Participated 
   * Form::Sensible::Reflector::DBIC
   * Catalyst::Model::ElasticSearch
   * CatalystX::FeedbackMessages
-
+  * [Grimlock](http://www.metacpan.org/modules/Grimlock)
 
 ## Maintainer of:
 
@@ -146,6 +146,8 @@ Majored in Business Administration in Computer Information Systems Participated 
   * and many more
 
 ### Software I've written:
+
+  * [Grimlock](http://www.metacpan.org/modules/Grimlock) - A simple, but extensible CMS written using Catalyst, DBIx::Class, Template::Toolkit and YUI3 for user interface and AJAX functionality.
 
   * Deimos - https://github.com/dhoss/Deimos
     A Catalyst+DBIx::Class based CMS that does all the things that I haven't been able to find in other CMS software (wordpress, MovableType), such as: 
