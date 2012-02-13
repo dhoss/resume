@@ -148,6 +148,11 @@ Majored in Business Administration in Computer Information Systems Participated 
 ### Software I've written:
 
   * [Grimlock](http://www.metacpan.org/module/Grimlock) - A simple, but extensible CMS written using Catalyst, DBIx::Class, Template::Toolkit and YUI3 for user interface and AJAX functionality.
+    - Uses DBICx::MaterializedPath for threaded comments
+    - Well tested
+    - Easy to use JSON API
+    - YUI3 provides useful, fast, and quickly modifiable datatable functionality
+    - Auto-save draft functionality
 
   * Deimos - https://github.com/dhoss/Deimos
     A Catalyst+DBIx::Class based CMS that does all the things that I haven't been able to find in other CMS software (wordpress, MovableType), such as: 
