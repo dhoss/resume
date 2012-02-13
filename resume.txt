@@ -15,6 +15,14 @@ I have code running on servers that handles multiple gigabytes of data a day wit
 
 # Professional Experience
 
+## January 2012 - Present Ionzero, LLC
+
+### Software Engineer
+
+Worked on a large Perl port of a Java web application that deals with airline flights locally and internationally. 
+Used homegrown ORM to build and execute queries on a MySQL database
+Debug large portions of code without much documentation daily, addressing ways to implement new enhancements and maintain good programming practices.
+
 ## September 2011 - December 2011 ExposureManager, LLC
 
 ### Senior Software Developer
