@@ -2,12 +2,12 @@
 
 ## Devin Austin
 
-devin.austin@gmail.com	
+devin.austin@gmail.com
 
 970-290-6669
 
 
-## Summary: I am a web software developer. 
+## Summary: I am a web software developer.
 
 I build web applications and have experience with many common frameworks in Perl and Ruby.
 
@@ -15,11 +15,11 @@ I have code running on servers that handles multiple gigabytes of data a day wit
 
 # Professional Experience
 
-## January 2012 - Present Ionzero, LLC
+## January 2012 - April 2012 Ionzero, LLC
 
 ### Software Engineer
 
-Worked on a large Perl port of a Java web application that deals with airline flights locally and internationally. 
+Worked on a large Perl port of a Java web application that deals with airline flights locally and internationally.
 
 Used homegrown ORM to build and execute queries on a MySQL database
 
@@ -30,10 +30,10 @@ Debug large portions of code without much documentation daily, addressing ways t
 ### Senior Software Developer
 
 Worked on a CGI::Application+MySQL backed web application with a heavily jQuery oriented front end that dealt with large numbers (15k photo batches in some instances) of photographs.
-Worked on building a Catalyst application backed by PostgreSQL using DBIx::Class, Bread::Board, and Message::Stack.  
+Worked on building a Catalyst application backed by PostgreSQL using DBIx::Class, Bread::Board, and Message::Stack.
 
 Main highlights include architecting a sane git workflow for users who weren't familiar with git, as well as building a well rounded infrastructure for PostgreSQL database schemata,
-and the Catalyst web application.  Also created a simple, but flexible JSON API that allowed for easy interfacing with Ajax requests and providing a scalable and easy to use internal application 
+and the Catalyst web application.  Also created a simple, but flexible JSON API that allowed for easy interfacing with Ajax requests and providing a scalable and easy to use internal application
 API, while remaining extensible and decoupled. Built a Facebook style "infinite scroller" for photo galleries using jQuery.
 
 ## February 2011 - September 2011 SocialFlow, LLC
@@ -150,9 +150,9 @@ Majored in Business Administration in Computer Information Systems Participated 
 
 ### Perl modules:
 
-  * Catalyst::View::Email (co-maintainer, but have been doing a lot of the maintenance work as of late), 
-  * Catalyst::Plugin::Data::FormValidator, 
-  * DBIx::Class::Ordered::Tree::MaterializedPath (pending release), 
+  * Catalyst::View::Email (co-maintainer, but have been doing a lot of the maintenance work as of late),
+  * Catalyst::Plugin::Data::FormValidator,
+  * DBIx::Class::Ordered::Tree::MaterializedPath (pending release),
   * and many more
 
 ### Software I've written:
@@ -165,14 +165,14 @@ Majored in Business Administration in Computer Information Systems Participated 
     - Auto-save draft functionality
 
   * Deimos - https://github.com/dhoss/Deimos
-    A Catalyst+DBIx::Class based CMS that does all the things that I haven't been able to find in other CMS software (wordpress, MovableType), such as: 
+    A Catalyst+DBIx::Class based CMS that does all the things that I haven't been able to find in other CMS software (wordpress, MovableType), such as:
     - runs smoothly under nginx
     - provides a reasonable and intuitive Perl API, as well as a web application API (emphasis on JSON)
     - works nicely with PostgreSQL
     - ability to switch worker process and search backends easily (configurable stores)
 
   * PerlFu - https://github.com/dhoss/PerlFu
-    A Catalyst based forum application that uses materialized paths to store threaded discussions. 
+    A Catalyst based forum application that uses materialized paths to store threaded discussions.
     - quick storage and retrieval of threads and posts
     - XSS security precautions
     - Data::Manager for data validation and message passing
@@ -182,7 +182,7 @@ Majored in Business Administration in Computer Information Systems Participated 
 
 Involved in the development of the Catalyst web application framework, DBIx::Class ORM, Moose OO framework test contributor
 
-## Identities and resources 
+## Identities and resources
 
 perlmonks.org nick: dhoss, same on IRC.
 
