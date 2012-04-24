@@ -215,7 +215,7 @@ Majored in Business Administration in Computer Information Systems Participated 
     - works nicely with PostgreSQL
     - ability to switch worker process and search backends easily (configurable stores)
 
-  *[PerlFu](https://github.com/dhoss/PerlFu)
+  * [PerlFu](https://github.com/dhoss/PerlFu)
     A Catalyst based forum application that uses materialized paths to store threaded discussions.
     - quick storage and retrieval of threads and posts
     - XSS security precautions
