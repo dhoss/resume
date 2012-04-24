@@ -11,7 +11,72 @@ devin.austin@gmail.com
 
 I build web applications and have experience with many common frameworks in Perl and Ruby.
 
-I have code running on servers that handles multiple gigabytes of data a day with thousands of requests. I am tenacious, innovative and am seeking an environment with strong senior staff to mentor me as I gain experience.  I also have experience with such system administration tools as Munin, Nagios, Puppet, and OpenVPN.
+I learn very well, and am extremely tenacious when it comes to getting things done and figuring things out.  I've had a good deal of experience with high pressure situations
+that require fast action, precise movements, and critical thinking skills in order to get something done, or fixed.  In my experience, good software is developed by combining research, planning, quick and iterative development cycles, testing and communication.  I spend my time making sure I have the information required to build the best product that I can in the time given, and I make sure I have the tools and knowledge to do so.
+
+In summation, you give me a specification, and I'm going to do everything in my power to produce a reusable, extensible, fast and efficient solution for you, on time, and with a smile.
+
+# Skills
+
+## Languages
+
+* Perl
+  * Web Frameworks/Technologies/Network
+    * Catalyst
+    * CGI::Application
+    * Web::Simple
+    * Mojolicious::Lite
+    * Plack
+    * Net::Twitter
+    * Facebook
+  * Database/ORMs
+    * DBIx::Class
+  * Search
+    * Kinosearch
+    * ElasticSearch
+    * Lucy
+  * Caching/Non-RDBMS Datastores
+    * Cache::Memcached
+    * Redis
+  * Worker Queues
+    * Resque
+    * Gearman
+    * MooseX::Workers
+  * OO Technologies
+    * Moose
+    * Moo
+    * Class::Accessor::Fast
+
+* Ruby
+  * Web Frameworks/Technologies
+    * Ruby on Rails
+    * Rack
+    * Unicorn
+    * Sinatra
+  * Database/ORMs
+    * ActiveRecord
+    * Sequel
+  * Search
+    * Tire (elasticsearch)
+  * Worker Queues
+    * Resque
+
+* Javascript
+  * Frameworks
+    * YUI
+    * Jquery
+
+## Applications/Technologies
+
+* Puppet
+* Nagios
+* Munin
+* Varnish
+* Memcache
+* ElasticSearch
+* Solr
+* Resque
+
 
 # Professional Experience
 
@@ -60,6 +125,7 @@ Added features such as "Embed your intro video" and subscription levels for "Sen
 Set up a MojoMojo wiki with custom CSS/templating for a major communications company. - wmcglobal.com
 
 Enabled database logging features through out a very large PHP codebase that tracked the number of reports being "passed" or "failed" after an initial audit. - wmcglobal.com
+
 Set up MovableType pro and customized templates for a high traffic and respected technology blog. - catalyzed.org
 
 Set up MojoMojo wiki running on FastCGI+varnish for caching for code snippets and examples. - catalyzed.org
@@ -86,8 +152,6 @@ Cleaned up a very large code base for the Catalyst::Helper API for the Catalyst 
 Wrote around 100 regression tests to make sure new features matched up with old features, and many more tests for newly implemented features
 
 Moved all the Template::Toolkit data and image data out of the DATA portion of Catalyst::Helper and into a more sane File::ShareDir set up so that developers could create their helpers in a much easier fashion.
-
-Currently (as of September 2009) cleaning up and finishing tests to release Catalyst::Devel with new ScriptRunner implementation for application specific scripts, and the new File::ShareDir functionality.
 
 I am now Catalyst::Devel's maintainer.
 
@@ -143,7 +207,6 @@ Majored in Business Administration in Computer Information Systems Participated 
 
   * Form::Sensible::Reflector::DBIC
   * Catalyst::Model::ElasticSearch
-  * CatalystX::FeedbackMessages
   * [Grimlock](http://www.metacpan.org/module/Grimlock)
 
 ## Maintainer of:
@@ -171,7 +234,7 @@ Majored in Business Administration in Computer Information Systems Participated 
     - works nicely with PostgreSQL
     - ability to switch worker process and search backends easily (configurable stores)
 
-  * PerlFu - https://github.com/dhoss/PerlFu
+  *[PerlFu](https://github.com/dhoss/PerlFu)
     A Catalyst based forum application that uses materialized paths to store threaded discussions.
     - quick storage and retrieval of threads and posts
     - XSS security precautions
@@ -194,17 +257,15 @@ Writing
 
 Published many articles regarding perl, a few of which are listed here:
 
-http://www.catalystframework.org/calendar/2008/5 - Simple Photo Gallery in Catalyst
+[Simple Photo Gallery in Catalyst](http://www.catalystframework.org/calendar/2008/5)
 
-http://dev.catalyst.perl.org/wiki/wikicookbook/nextpageredirect - Next Page Redirect after Login
+[Next Page Redirect after Login](http://dev.catalyst.perl.org/wiki/wikicookbook/nextpageredirect)
 
-http://www.catalystframework.org/calendar/2009/23 - Plack and Catalyst
+[Plack and Catalyst](thttp://www.catalystframework.org/calendar/2009/23)
 
-http://www.catalystframework.org/calendar/2009/13 - Trees in SQL with Catalyst
+[Trees in SQL with Catalyst](http://www.catalystframework.org/calendar/2009/13)
 
-http://www.catalystframework.org/calendar/2009/7 - The New Catalyst ScriptRunner API
-
-http://dhoss.net/category/programming - A listing of my writings regarding all things programming/administration/databases, running on CMS software that I've written (https://github.com/dhoss/Deimos)
+[The New Catalyst ScriptRunner API](http://www.catalystframework.org/calendar/2009/7)
 
 
 ## Interests
