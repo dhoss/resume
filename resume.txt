@@ -82,7 +82,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
 
 # Professional Experience
 
-## April 2012 - Present CodedRight.net
+## April 2006  - Present CodedRight.net
 
 ### Independent Contractor/Founder
 
@@ -90,6 +90,13 @@ Developed Catalyst and Ruby on Rails codebase that emphasized a JSON API to pass
 applications.  Used CoffeeScript and LESS for UX components.  Client has been happy with deliverables produced on time and 
 to their specifications.
 
+Did consulting work for M3i Works that does web front ends for companies like Sun Microsystems
+
+Have done multiple modifications to PHP driven websites including an image upload script for a t-shirt screen printing company
+
+Submitted a patch to the MojoMojo wiki that allows users to switch between Textile and Markdown wiki markup.
+
+Created a web crawler to index all electrical engineers from Australia's YellowPages using Web::Scraper. The time constraint was great on this, less than 36 hours, and the client was very happy with the result.
 
 
 ## January 2012 - April 2012 Ionzero, LLC
@@ -163,18 +170,6 @@ Moved all the Template::Toolkit data and image data out of the DATA portion of C
 ### Web Master
 
 Built a Catalyst based web application for a puppy photogallery site using DBIx::Class (ORM for use with multiple databases, MySQL in this case), Imager (for a custom photogallery/manipulation feature), Template::Toolkit, and a fairly comprehensive user management system to allow people to sign up, login, and post pictures of their puppies. Ran under fastcgi on nginx, and varnish for caching images. (now moved to github)
-
-## 2006-Present codedright.net Loveland, CO
-
-### Senior Web Developer/Founder
-
-Did consulting work for M3i Works that does web front ends for companies like Sun Microsystems
-
-Have done multiple modifications to PHP driven websites including an image upload script for a t-shirt screen printing company
-
-Submitted a patch to the MojoMojo wiki that allows users to switch between Textile and Markdown wiki markup.
-
-Created a web crawler to index all electrical engineers from Australia's YellowPages using Web::Scraper. The time constraint was great on this, less than 36 hours, and the client was very happy with the result.
 
 ## Education
 
