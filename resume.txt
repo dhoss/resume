@@ -65,6 +65,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
   * Frameworks
     * YUI
     * Jquery
+    * CoffeeScript
 
 ## Applications/Technologies
 
@@ -76,9 +77,20 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * ElasticSearch
 * Solr
 * Resque
+* LESS
 
 
 # Professional Experience
+
+## April 2012 - Present CodedRight.net
+
+### Independent Contractor/Founder
+
+Developed Catalyst and Ruby on Rails codebase that emphasized a JSON API to pass messages between 
+applications.  Used CoffeeScript and LESS for UX components.  Client has been happy with deliverables produced on time and 
+to their specifications.
+
+
 
 ## January 2012 - April 2012 Ionzero, LLC
 
