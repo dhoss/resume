@@ -52,6 +52,9 @@ In summation, you give me a specification, and I'm going to do everything in my 
     * Ruby on Rails
     * Rack
     * Unicorn
+    * Puma
+    * Rspec
+    * MiniTest
     * Sinatra
   * Database/ORMs
     * ActiveRecord
@@ -66,6 +69,17 @@ In summation, you give me a specification, and I'm going to do everything in my 
     * YUI
     * Jquery
     * CoffeeScript
+    
+* Go
+* Scala
+* C#
+* SQL Server 2008
+* AWS
+ * S3
+ * EC2
+ * RDS
+ * Cloudfront
+ * Cloudwatch
 
 ## Applications/Technologies
 
@@ -78,11 +92,29 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * Solr
 * Resque
 * LESS
-
+* SASS
+* Finalbuilder
+* NAnt
+* Jenkins
+* msbuild
 
 # Professional Experience
 
-## April 2006  - Present CodedRight.net
+## August 2012 - Present Ancestry.com
+
+I go where I am needed.  I maintain a large, high traffic image service written in legacy Perl code, hosted on AWS, 
+as well as a test automation framework written in C# to run Selenium tests against the archives.com web applications.
+
+I manage several Linux based servers, as well as several Windows based servers.  
+
+I manage application releases and hotfixes, and monitor all builds to make sure everything is working properly.
+
+I write tools to handle large database jobs, migrate several terabytes worth of image data, and make tasks repeatable and less error prone.
+
+I also write Javascript ads from time to time.
+
+
+## April 2006  - August 2012 CodedRight.net
 
 ### Independent Contractor/Founder
 
@@ -208,19 +240,16 @@ Majored in Business Administration in Computer Information Systems Participated 
 
 ### Software I've written:
 
+  * [Fluorescent](https://rubygems.org/gems/fluorescent) - A small gem to highlight search terms in search results.
+  
+  * [Kodiak](https://github.com/dhoss/Kodiak) - A Ruby on Rails CMS under development with an emphasis on threaded discussions, photo galleries, and being easily managed.
+
   * [Grimlock](http://www.metacpan.org/module/Grimlock) - A simple, but extensible CMS written using Catalyst, DBIx::Class, Template::Toolkit and YUI3 for user interface and AJAX functionality.
     - Uses DBICx::MaterializedPath for threaded comments
     - Well tested
     - Easy to use JSON API
     - YUI3 provides useful, fast, and quickly modifiable datatable functionality
     - Auto-save draft functionality
-
-  * Deimos - https://github.com/dhoss/Deimos
-    A Catalyst+DBIx::Class based CMS that does all the things that I haven't been able to find in other CMS software (wordpress, MovableType), such as:
-    - runs smoothly under nginx
-    - provides a reasonable and intuitive Perl API, as well as a web application API (emphasis on JSON)
-    - works nicely with PostgreSQL
-    - ability to switch worker process and search backends easily (configurable stores)
 
   * [PerlFu](https://github.com/dhoss/PerlFu)
     A Catalyst based forum application that uses materialized paths to store threaded discussions.
@@ -235,7 +264,7 @@ Involved in the development of the Catalyst web application framework, DBIx::Cla
 
 ## Identities and resources
 
-perlmonks.org nick: dhoss, same on IRC.
+perlmonks.org nick: dhoss
 
 CPAN: DHOSS
 
@@ -258,6 +287,6 @@ Published many articles regarding perl, a few of which are listed here:
 
 ## Interests
 
-Hockey, running, football, weight lifting, computers, and target shooting, Kung Fu (student instructor for Pai Lum)
+Hockey, running, football, weight lifting, fitness, computers, and target shooting
 
 
