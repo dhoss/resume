@@ -58,9 +58,9 @@ In summation, you give me a specification, and I'm going to do everything in my 
     * Sinatra
   * Database/ORMs
     * ActiveRecord
-    * Sequel
   * Search
     * Tire (elasticsearch)
+    * PgSearch (postgresql tsearch)
   * Worker Queues
     * Resque
 
@@ -97,6 +97,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * NAnt
 * Jenkins
 * msbuild
+* Ansible
 
 # Professional Experience
 
@@ -111,7 +112,7 @@ I manage application releases and hotfixes, and monitor all builds to make sure 
 
 I write tools to handle large database jobs, migrate several terabytes worth of image data, and make tasks repeatable and less error prone.
 
-I also write Javascript ads from time to time.
+I also write Javascript for ads from time to time.
 
 
 ## April 2006  - August 2012 CodedRight.net
