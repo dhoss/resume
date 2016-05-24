@@ -87,7 +87,7 @@ using python and Postgres and tsearch2.
 Prior to that, I managed and made major changes to a legacy Perl application written using severely outdated technologies and techniques that ran on AWS and acted as an image service for archives.com and the 1940s Census NARA website.  The application dealt with upwards of 20 million database records stored in MySQL containing image metadata, and at one point 80 terabytes of images, thumbnails and image tiles.
 I was able to polish a clean up technique using a Perl script and S3 object expiration to stand in for the unsalvageable existing clean up process and bring the AWS storage and computing costs down by approximately 50%.
 
-I have written several small tools for myself and others to alleviate a range of tasks including generating mapping files and the SQL to go along with them for missing or incorrectly mapped database records for various archives.com image collections, and a small daemon to kick off credit card charge service jobs and notify various users of failures [](https://github.com/dhoss/nudge).
+I have written several small tools for myself and others to alleviate a range of tasks including generating mapping files and the SQL to go along with them for missing or incorrectly mapped database records for various archives.com image collections, and a small daemon to kick off credit card charge service jobs and notify various users of failures ([nudge](https://github.com/dhoss/nudge)).
 
 ## April 2006  - August 2012 CodedRight.net
 
