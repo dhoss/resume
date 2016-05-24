@@ -9,7 +9,7 @@ devin.austin@gmail.com
 
 ## Summary: I am a web software developer.
 
-I build web applications and have experience with many common frameworks in Perl and Ruby.
+I build web applications and have experience with many common frameworks in several different languages, including Java, Go, and Ruby..
 
 I learn very well, and am extremely tenacious when it comes to getting things done and figuring things out.  I've had a good deal of experience with high pressure situations
 that require fast action, precise movements, and critical thinking skills in order to get something done, or fixed.  In my experience, good software is developed by combining research, planning, quick and iterative development cycles, testing and communication.  I spend my time making sure I have the information required to build the best product that I can in the time given, and I make sure I have the tools and knowledge to do so.
@@ -20,33 +20,13 @@ In summation, you give me a specification, and I'm going to do everything in my 
 
 ## Languages
 
-* Perl
-  * Web Frameworks/Technologies/Network
-    * Catalyst
-    * CGI::Application
-    * Web::Simple
-    * Mojolicious::Lite
-    * Plack
-    * Net::Twitter
-    * Facebook
-  * Database/ORMs
-    * DBIx::Class
-  * Search
-    * Kinosearch
-    * ElasticSearch
-    * Lucy
-  * Caching/Non-RDBMS Datastores
-    * Cache::Memcached
-    * Redis
-  * Worker Queues
-    * Resque
-    * Gearman
-    * MooseX::Workers
-  * OO Technologies
-    * Moose
-    * Moo
-    * Class::Accessor::Fast
-
+* Java
+  * jooq
+  * Spark Web
+  * Maven
+  * Gradle
+  * Flwaydb
+* Go
 * Ruby
   * Web Frameworks/Technologies
     * Ruby on Rails
@@ -58,6 +38,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
     * Sinatra
   * Database/ORMs
     * ActiveRecord
+    * Sequel
   * Search
     * Tire (elasticsearch)
     * PgSearch (postgresql tsearch)
@@ -66,26 +47,22 @@ In summation, you give me a specification, and I'm going to do everything in my 
 
 * Javascript
   * Frameworks
-    * YUI
-    * Jquery
+    * Reactjs
+    * webpack
+    * jQuery
     * CoffeeScript
-    
-* Go
 * Scala
+  * Play! Framework
+  * Slick FRM
 * C#
-* SQL Server 2008
-* AWS
- * S3
- * EC2
- * RDS
- * Cloudfront
- * Cloudwatch
 
 ## Applications/Technologies
 
-* Puppet
+* PostgreSQL
+* Ansible
+* Jenkins
 * Nagios
-* Munin
+* Redis
 * Varnish
 * Memcache
 * ElasticSearch
@@ -93,27 +70,24 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * Resque
 * LESS
 * SASS
-* Finalbuilder
-* NAnt
-* Jenkins
-* msbuild
-* Ansible
+* AWS
+* SQL Server 2008
+* MySQL
 
 # Professional Experience
 
 ## August 2012 - Present Ancestry.com
 
-I go where I am needed.  I maintain a large, high traffic image service written in legacy Perl code, hosted on AWS, 
-as well as a test automation framework written in C# to run Selenium tests against the archives.com web applications.
+Currently working on the Ancestry devops team.  Day to day tasks include configuration management through custom built tools, managing go.cd pipelines, diagnosing issues with servers, 
+and building VMs through custom built tools.
 
-I manage several Linux based servers, as well as several Windows based servers.  
+Longer term projects involve maintaining and contributing to an inherited Java codebase for provisioning and bootstrapping VMs, and writing an app to index application configuration for searching
+using python and Postgres and tsearch2.
 
-I manage application releases and hotfixes, and monitor all builds to make sure everything is working properly.
+Prior to that, I managed and made major changes to a legacy Perl application written using severely outdated technologies and techniques that ran on AWS and acted as an image service for archives.com and the 1940s Census NARA website.  The application dealt with upwards of 20 million database records stored in MySQL containing image metadata, and at one point 80 terabytes of images, thumbnails and image tiles.
+I was able to polish a clean up technique using a Perl script and S3 object expiration to stand in for the unsalvageable existing clean up process and bring the AWS storage and computing costs down by approximately 50%.
 
-I write tools to handle large database jobs, migrate several terabytes worth of image data, and make tasks repeatable and less error prone.
-
-I also write Javascript for ads from time to time.
-
+I have written several small tools for myself and others to alleviate a range of tasks including generating mapping files and the SQL to go along with them for missing or incorrectly mapped database records for various archives.com image collections, and a small daemon to kick off credit card charge service jobs and notify various users of failures ([https://github.com/dhoss/nudge]).
 
 ## April 2006  - August 2012 CodedRight.net
 
@@ -122,10 +96,6 @@ I also write Javascript for ads from time to time.
 Developed Catalyst and Ruby on Rails codebase that emphasized a JSON API to pass messages between 
 applications.  Used CoffeeScript and LESS for UX components.  Client has been happy with deliverables produced on time and 
 to their specifications.
-
-Did consulting work for M3i Works that does web front ends for companies like Sun Microsystems
-
-Have done multiple modifications to PHP driven websites including an image upload script for a t-shirt screen printing company
 
 Submitted a patch to the MojoMojo wiki that allows users to switch between Textile and Markdown wiki markup.
 
@@ -230,50 +200,29 @@ Majored in Business Administration in Computer Information Systems Participated 
   * Catalyst::Model::ElasticSearch
   * [Grimlock](http://www.metacpan.org/module/Grimlock)
 
-## Maintainer of:
-
-### Perl modules:
-
-  * Catalyst::View::Email (co-maintainer, but have been doing a lot of the maintenance work as of late),
-  * Catalyst::Plugin::Data::FormValidator,
-  * DBIx::Class::Ordered::Tree::MaterializedPath (pending release),
-  * and many more
-
 ### Software I've written:
+
+  * [ceramiccatepottery.com](http://www.ceramiccatepottery.com) - An image gallery and administrative interface for my wife's pottery business.  
+                                                                  Built using Java (Spark Web framework + jooq), Postgresql 9.4, Varnish, Cloudflare CDN, Nginx and Ansible.  Using webpack to manage static assets.
+                                                                  
+  * [Steel](https://github.com/dhoss/steel) - An excuse to learn Scala, and initially a work out tracker web application built using the Play! web framework and the Slick FRM for database access.
+
+  * [Treeify](https://rubygems.org/gems/treeify) - A gem to allow you to make recursive queries using Postgres and CTE (WITH RECURSIVE, to be more precise) and get a tree-like data structure in return.
 
   * [Fluorescent](https://rubygems.org/gems/fluorescent) - A small gem to highlight search terms in search results.
   
   * [Kodiak](https://github.com/dhoss/Kodiak) - A Ruby on Rails CMS under development with an emphasis on threaded discussions, photo galleries, and being easily managed.
 
-  * [Grimlock](http://www.metacpan.org/module/Grimlock) - A simple, but extensible CMS written using Catalyst, DBIx::Class, Template::Toolkit and YUI3 for user interface and AJAX functionality.
-    - Uses DBICx::MaterializedPath for threaded comments
-    - Well tested
-    - Easy to use JSON API
-    - YUI3 provides useful, fast, and quickly modifiable datatable functionality
-    - Auto-save draft functionality
-
-  * [PerlFu](https://github.com/dhoss/PerlFu)
-    A Catalyst based forum application that uses materialized paths to store threaded discussions.
-    - quick storage and retrieval of threads and posts
-    - XSS security precautions
-    - Data::Manager for data validation and message passing
-    - DBICx::MaterializedPath for materialized path handling
-    - Plack for easy deployment.
-    - branch for parsing large XML datasets using XML::CompactTree::XS and XML::LibXML::Reader, as well as XML::Toolkit for web app interaction with smaller XML datasets.
-
-Involved in the development of the Catalyst web application framework, DBIx::Class ORM, Moose OO framework test contributor
 
 ## Identities and resources
-
-perlmonks.org nick: dhoss
-
-CPAN: DHOSS
 
 Github: http://github.com/dhoss
 
 Writing
 
 Published many articles regarding perl, a few of which are listed here:
+
+[Playing With Scala, part 1](http://stonecolddev.in/posts/playing-with-scala-building-a-small-web-app-with-play-2-4-play-slick-and-postgres) and [part 2](http://stonecolddev.in/posts/playing-with-scala-building-a-small-web-app-with-play-2-4-play-slick-and-postgres-part-2-testing) - A tutorial on how to get the Scala version of the Play! framework set up under Postgres specs2 for testing, using travis-ci for continuous integration testing.  It was generally well received on the scala subreddit on reddit.com, and I actually received some email correspondence and comments on the article from the Slick author himself with some advice and praise on the article.
 
 [Simple Photo Gallery in Catalyst](http://www.catalystframework.org/calendar/2008/5)
 
@@ -284,10 +233,4 @@ Published many articles regarding perl, a few of which are listed here:
 [Trees in SQL with Catalyst](http://www.catalystframework.org/calendar/2009/13)
 
 [The New Catalyst ScriptRunner API](http://www.catalystframework.org/calendar/2009/7)
-
-
-## Interests
-
-Hockey, running, football, weight lifting, fitness, computers, and target shooting
-
 
