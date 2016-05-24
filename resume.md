@@ -9,7 +9,7 @@ devin.austin@gmail.com
 
 ## Summary: I am a web software developer.
 
-I build web applications and have experience with many common frameworks in several different languages, including Java, Go, and Ruby..
+I build web applications and have experience with many common frameworks in several different languages, including Java, Go, and Ruby.
 
 I learn very well, and am extremely tenacious when it comes to getting things done and figuring things out.  I've had a good deal of experience with high pressure situations
 that require fast action, precise movements, and critical thinking skills in order to get something done, or fixed.  In my experience, good software is developed by combining research, planning, quick and iterative development cycles, testing and communication.  I spend my time making sure I have the information required to build the best product that I can in the time given, and I make sure I have the tools and knowledge to do so.
