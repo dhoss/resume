@@ -61,6 +61,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * PostgreSQL
 * Ansible
 * Jenkins
+* RabbitMQ
 * Nagios
 * Redis
 * Varnish
@@ -101,22 +102,17 @@ Submitted a patch to the MojoMojo wiki that allows users to switch between Texti
 
 Created a web crawler to index all electrical engineers from Australia's YellowPages using Web::Scraper. The time constraint was great on this, less than 36 hours, and the client was very happy with the result.
 
-
 ## January 2012 - April 2012 Ionzero, LLC
 
 ### Software Engineer
 
 Worked on a large, legacy Perl application that deals with airline flights locally and internationally.
 
-Used homegrown ORM to build and execute queries on a MySQL database
-
-Debug large portions of code without much documentation daily, addressing ways to implement new enhancements and maintain good programming practices.
-
 ## September 2011 - December 2011 ExposureManager, LLC
 
 ### Senior Software Developer
 
-Worked on a CGI::Application+MySQL backed web application with a heavily jQuery oriented front end that dealt with large numbers (15k photo batches in some instances) of photographs.
+Worked on a Perl+MySQL backed web application with a heavily jQuery oriented front end that dealt with large numbers (15k photo batches in some instances) of photographs.
 Worked on building a Catalyst application backed by PostgreSQL using DBIx::Class, Bread::Board, and Message::Stack.
 
 Main highlights include architecting a sane git workflow for users who weren't familiar with git, as well as building a well rounded infrastructure for PostgreSQL database schemata,
@@ -129,9 +125,9 @@ API, while remaining extensible and decoupled. Built a Facebook style "infinite 
 
 Worked on a MySQL backed Catalyst+DBIx::Class application that dealt with enormous RDBMS based datasets (multiple gigabytes in any given instance).
 
-Specifically, built a Catalyst application that maintained an up-to-date store of clients' twitter followers and calculated the percent change within a given time period.  This made heavy use of backend parallel worker processes.  I was able to get PostgreSQL to return results fast enough through DBIx::Class that we didn't have to enable any caching or other optimization solutions.
+Built a Catalyst application that maintained an up-to-date store of clients' twitter followers and calculated the percent change within a given time period.  This made heavy use of backend parallel worker processes.  I was able to get PostgreSQL to return results fast enough through DBIx::Class that we didn't have to enable any caching or other optimization solutions.
 
-I also built a reporting tool for the company based upon jQuery's datatables plugin that acted as a company health and statistics source based on what users' activity was, financially and app based.  This also involved a good bit of optimization (this time with a MySQL backend) in order to successfully retrieve a dataset for given users, that I was successfully able to accomplish.  Heavy use of JSON and Ajax were involved in the creation of this tool.
+Built a reporting tool for the company based upon jQuery's datatables plugin that acted as a company health and statistics source based on what users' activity was, financially and app based.  This also involved a good bit of optimization (this time with a MySQL backend) in order to successfully retrieve a dataset for given users, that I was successfully able to accomplish.
 
 ## May 2009 - February 2011 Ionzero, LLC
 
@@ -140,12 +136,6 @@ I also built a reporting tool for the company based upon jQuery's datatables plu
 Built an application to act as a proxy between a front facing php web application and a storage file system that handles upwards of 6,000 file uploads a day via the API that handles XML, JSON and plain HTTP data. Built using Catalyst and Plack. - wmcglobal.com
 
 Managed a high traffic, enterprise level web application written in Ruby on Rails. This consisted of migrating that application to its current server, setting up a staging and production server from the ground up (SVN for version control and deployment management, Postgres database, nginx+mod_rails for the Ruby on Rails application) - gohuman.com
-
-Enabled database logging features through out a very large PHP codebase that tracked the number of reports being "passed" or "failed" after an initial audit. - wmcglobal.com
-
-Set up MovableType pro and customized templates for a high traffic and respected technology blog. - catalyzed.org
-
-Set up MojoMojo wiki running on FastCGI+varnish for caching for code snippets and examples. - catalyzed.org
 
 ## January 2010 - April 2010 Nasa Pro Racing
 
@@ -167,12 +157,6 @@ Implemented a materialized path structure for managing virtual directories for w
 Cleaned up a very large code base for the Catalyst::Helper API for the Catalyst framework. (Code can be viewed in the helperrefactor, moosifyapi and better_scripts branches the Catalyst code repository [http://dev.catalystframework.org/svnweb/Catalyst/])
 
 Moved all the Template::Toolkit data and image data out of the DATA portion of Catalyst::Helper and into a more sane File::ShareDir set up so that developers could create their helpers in a much easier fashion.
-
-## 2008-Present Boyosplace.com
-
-### Web Master
-
-Built a Catalyst based web application for a puppy photogallery site using DBIx::Class (ORM for use with multiple databases, MySQL in this case), Imager (for a custom photogallery/manipulation feature), Template::Toolkit, and a fairly comprehensive user management system to allow people to sign up, login, and post pictures of their puppies. Ran under fastcgi on nginx, and varnish for caching images. (now moved to github)
 
 ## Education
 
