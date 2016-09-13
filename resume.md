@@ -27,6 +27,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
   * Gradle
   * Flwaydb
 * Go
+* C#
 * Ruby
   * Web Frameworks/Technologies
     * Ruby on Rails
@@ -54,7 +55,6 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * Scala
   * Play! Framework
   * Slick FRM
-* C#
 
 ## Applications/Technologies
 
@@ -65,7 +65,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * Nagios
 * Redis
 * Varnish
-* Memcache
+* Memcached
 * ElasticSearch
 * Solr
 * Resque
@@ -123,40 +123,17 @@ API, while remaining extensible and decoupled. Built a Facebook style "infinite 
 
 ### Product Engineer
 
-Worked on a MySQL backed Catalyst+DBIx::Class application that dealt with enormous RDBMS based datasets (multiple gigabytes in any given instance).
-
-Built a Catalyst application that maintained an up-to-date store of clients' twitter followers and calculated the percent change within a given time period.  This made heavy use of backend parallel worker processes.  I was able to get PostgreSQL to return results fast enough through DBIx::Class that we didn't have to enable any caching or other optimization solutions.
-
-Built a reporting tool for the company based upon jQuery's datatables plugin that acted as a company health and statistics source based on what users' activity was, financially and app based.  This also involved a good bit of optimization (this time with a MySQL backend) in order to successfully retrieve a dataset for given users, that I was successfully able to accomplish.
-
 ## May 2009 - February 2011 Ionzero, LLC
 
 ### IT Consultant
-
-Built an application to act as a proxy between a front facing php web application and a storage file system that handles upwards of 6,000 file uploads a day via the API that handles XML, JSON and plain HTTP data. Built using Catalyst and Plack. - wmcglobal.com
-
-Managed a high traffic, enterprise level web application written in Ruby on Rails. This consisted of migrating that application to its current server, setting up a staging and production server from the ground up (SVN for version control and deployment management, Postgres database, nginx+mod_rails for the Ruby on Rails application) - gohuman.com
 
 ## January 2010 - April 2010 Nasa Pro Racing
 
 ### IT Consultant
 
-Managed and wrote a database and file data migration script in Perl to move data from a previously used OpenInteract application to a new Catalyst+DBIx::Class web application backed by MySQL and MogileFS.
-
-Built a search engine feature that uses Data::SearchEngine and DBIx::Class to search based on racing class types, race tracks, and other such race track and car class based data.
-
-Wrote a geocoding feature that calculates the distance of a track from a given city name or zip code and returns tracks within a chosen radius (5, 10, 15 miles etc) of city/zip code based on Geo::Coder and DBIx::Class
-
-Implemented a materialized path structure for managing virtual directories for website assets and file data in the database based upon DBIx::Class::Tree::Ordered::MaterializedPath, allowing administrators to have a file system view of website assets.
-
-
 ## April 2009-September 2009 Google Summer of Code
 
 ### Programmer
-
-Cleaned up a very large code base for the Catalyst::Helper API for the Catalyst framework. (Code can be viewed in the helperrefactor, moosifyapi and better_scripts branches the Catalyst code repository [http://dev.catalystframework.org/svnweb/Catalyst/])
-
-Moved all the Template::Toolkit data and image data out of the DATA portion of Catalyst::Helper and into a more sane File::ShareDir set up so that developers could create their helpers in a much easier fashion.
 
 ## Education
 
@@ -166,24 +143,14 @@ BS in Computer Security with a minor in Computer Science
 
 Majored in Computer Security with a Computer Science minor Bachelor of Science in Computer Security and Crime
 
-President of local ACM chapter at MSCD.
-
-Participated in CANVAS - A network security exploitation convention/workshop two years in a row. Contributed greatly to breaking into servers via multiple exploits, SQL injection, DCOM holes, etc. Placed 4th, and 3rd respectively.
+Participated in CANVAS - A network security exploitation convention/workshop two years in a row. Contributed to breaking into servers via multiple exploits, SQL injection, DCOM holes, etc. Placed 4th, and 3rd respectively.
 
 ### 2006-2007 University of Northern Colorado Greeley, CO
 
-Majored in Business Administration in Computer Information Systems Participated in Lead On, a leadership camp that accepted only 100 incoming freshman. Activities included developing leadership skills, social skills, and preparing yourself for the adversities of college.
-
 ## Open Source Work
 
-## Author of:
-
-### Perl modules:
-
-  * Form::Sensible::Reflector::DBIC
-  * Catalyst::Model::ElasticSearch
-  * [Grimlock](http://www.metacpan.org/module/Grimlock)
-
+* http://github.com/dhoss
+* 
 ### Software I've written:
 
   * [ceramiccatepottery.com](http://www.ceramiccatepottery.com) - An image gallery and administrative interface for my wife's pottery business.  
@@ -199,8 +166,6 @@ Majored in Business Administration in Computer Information Systems Participated 
 
 
 ## Identities and resources
-
-Github: http://github.com/dhoss
 
 Writing
 
