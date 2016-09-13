@@ -26,6 +26,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
   * Maven
   * Gradle
   * Flwaydb
+  * Spring Boot
 * Go
 * C#
 * Ruby
@@ -74,6 +75,7 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * AWS
 * SQL Server 2008
 * MySQL
+* Chef
 
 # Professional Experience
 
