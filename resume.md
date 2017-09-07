@@ -11,8 +11,6 @@ devin.austin@gmail.com
 
 I build web applications and have experience with many common frameworks in several different languages, including Java, Go, and Ruby.
 
-I have extensive experience building backend applications and services that deal with large amounts of data and deferred processing in AWS.  I am able to clearly visualize and plan out a strategy implement a solution dealing with several data sources and processes in a clean and optimal manner.  I am also able to iterate in a manner that allows optimizations to be deployed smoothly. I also have a great deal of experience setting up build systems leveraging Jenkins and AWS to get code deployed in a reliable, automated and repeatable manner.  I'm able to handle building out business logic and implement methods to get applications up and running in multiple environments.
-
 I learn very well, and am extremely tenacious when it comes to getting things done and figuring things out.  I've had a good deal of experience with high pressure situations
 that require fast action, precise movements, and critical thinking skills in order to get something done, or fixed.  In my experience, good software is developed by combining research, planning, quick and iterative development cycles, testing and communication.  I spend my time making sure I have the information required to build the best product that I can in the time given, and I make sure I have the tools and knowledge to do so.
 
@@ -26,52 +24,30 @@ In summation, you give me a specification, and I'm going to do everything in my 
 * Go
 * C#
 * Ruby
-* Javascript
 
 ## Applications/Technologies
 
 * AWS
-* Jenkins
-* PostgreSQL
+* Various SQL database flavors (Postgres, MySQL)
 * Ansible
-* RabbitMQ
-* Nagios
-* Redis
-* Varnish
-* Memcached
-* ElasticSearch
-* MySQL
+
 
 # Professional Experience
 
 ## October 2016 - Present
 
 ### DNA Platform - Senior Software Engineer
+Built Spring Boot application to manage provisioning EC2 instances and
+data extraction for DNA scientists.  Also built the build and deploy
+system using Jenkins and AWS
 
-I've built out and seen a Spring Boot application through from its infancy in proof
-of concept to its current state with a team of developers working on it
-and building out features on top of the foundation I built, while
-continually contributing features and fixes.  This application acts as
-an ec2 workstation provisioning system for DNA scientists to load up with data, run experiments and save the results in S3.  Aurora is used to store metadata for several sources of data, including an index of all ec2 instances, users, pointers to S3, and job statuses.  SQS is used to kick off various jobs including instance provisioning and data extraction.
-
-I've also built out our build and deploy system using Jenkins, bash and
-the AWS cli using a blue/green deployment strategy to deploy ec2
-instances in an autoscaling group with the latest application code pulled down onto them and add them to the load balancer when they pass health checks.
 
 ## August 2012 - October 2016 Ancestry.com
 
 ### Devops - Software Developer
+Worked on maintaining configuration for DNA application stacks
 
-Day to day tasks include configuration management through custom built tools, managing go.cd pipelines, diagnosing issues with servers, 
-and building VMs through custom built tools.
-
-Longer term projects involve maintaining and contributing to an inherited Java codebase for provisioning and bootstrapping VMs, and writing an app to index application configuration for searching
-using python and Postgres and tsearch2.
-
-Prior to that, I managed and made major changes to a legacy Perl application written using severely outdated technologies and techniques that ran on AWS and acted as an image service for archives.com and the 1940s Census NARA website.  The application dealt with upwards of 20 million database records stored in MySQL containing image metadata, and at one point 80 terabytes of images, thumbnails and image tiles.
-I was able to polish a clean up technique using a Perl script and S3 object expiration to stand in for the unsalvageable existing clean up process and bring the AWS storage and computing costs down by approximately 50%.
-
-I have written several small tools for myself and others to alleviate a range of tasks including generating mapping files and the SQL to go along with them for missing or incorrectly mapped database records for various archives.com image collections, and a small daemon to kick off credit card charge service jobs and notify various users of failures ([nudge](https://github.com/dhoss/nudge)).
+Built tools to help with my day to day work
 
 ## April 2006  - August 2012 CodedRight.net
 
