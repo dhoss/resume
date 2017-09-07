@@ -11,6 +11,8 @@ devin.austin@gmail.com
 
 I build web applications and have experience with many common frameworks in several different languages, including Java, Go, and Ruby.
 
+I have extensive experience building backend applications and services that deal with large amounts of data and deferred processing in AWS.  I am able to clearly visualize and plan out a strategy implement a solution dealing with several data sources and processes in a clean and optimal manner.  I am also able to iterate in a manner that allows optimizations to be deployed smoothly. I also have a great deal of experience setting up build systems leveraging Jenkins and AWS to get code deployed in a reliable, automated and repeatable manner.  I'm able to handle building out business logic and implement methods to get applications up and running in multiple environments.
+
 I learn very well, and am extremely tenacious when it comes to getting things done and figuring things out.  I've had a good deal of experience with high pressure situations
 that require fast action, precise movements, and critical thinking skills in order to get something done, or fixed.  In my experience, good software is developed by combining research, planning, quick and iterative development cycles, testing and communication.  I spend my time making sure I have the information required to build the best product that I can in the time given, and I make sure I have the tools and knowledge to do so.
 
@@ -21,67 +23,46 @@ In summation, you give me a specification, and I'm going to do everything in my 
 ## Languages
 
 * Java
-  * jooq
-  * Spark Web
-  * Maven
-  * Gradle
-  * Flwaydb
-  * Spring Boot
 * Go
 * C#
 * Ruby
-  * Web Frameworks/Technologies
-    * Ruby on Rails
-    * Rack
-    * Unicorn
-    * Puma
-    * Rspec
-    * MiniTest
-    * Sinatra
-  * Database/ORMs
-    * ActiveRecord
-    * Sequel
-  * Search
-    * Tire (elasticsearch)
-    * PgSearch (postgresql tsearch)
-  * Worker Queues
-    * Resque
-
 * Javascript
-  * Frameworks
-    * Reactjs
-    * webpack
-    * jQuery
-    * CoffeeScript
-* Scala
-  * Play! Framework
-  * Slick FRM
 
 ## Applications/Technologies
 
+* AWS
+* Jenkins
 * PostgreSQL
 * Ansible
-* Jenkins
 * RabbitMQ
 * Nagios
 * Redis
 * Varnish
 * Memcached
 * ElasticSearch
-* Solr
-* Resque
-* LESS
-* SASS
-* AWS
-* SQL Server 2008
 * MySQL
-* Chef
 
 # Professional Experience
 
-## August 2012 - Present Ancestry.com
+## October 2016 - Present
 
-Currently working on the Ancestry devops team.  Day to day tasks include configuration management through custom built tools, managing go.cd pipelines, diagnosing issues with servers, 
+### DNA Platform - Senior Software Engineer
+
+I've built out and seen a Spring Boot application through from its infancy in proof
+of concept to its current state with a team of developers working on it
+and building out features on top of the foundation I built, while
+continually contributing features and fixes.  This application acts as
+an ec2 workstation provisioning system for DNA scientists to load up with data, run experiments and save the results in S3.  Aurora is used to store metadata for several sources of data, including an index of all ec2 instances, users, pointers to S3, and job statuses.  SQS is used to kick off various jobs including instance provisioning and data extraction.
+
+I've also built out our build and deploy system using Jenkins, bash and
+the AWS cli using a blue/green deployment strategy to deploy ec2
+instances in an autoscaling group with the latest application code pulled down onto them and add them to the load balancer when they pass health checks.
+
+## August 2012 - October 2016 Ancestry.com
+
+### Devops - Software Developer
+
+Day to day tasks include configuration management through custom built tools, managing go.cd pipelines, diagnosing issues with servers, 
 and building VMs through custom built tools.
 
 Longer term projects involve maintaining and contributing to an inherited Java codebase for provisioning and bootstrapping VMs, and writing an app to index application configuration for searching
@@ -96,14 +77,6 @@ I have written several small tools for myself and others to alleviate a range of
 
 ### Independent Contractor/Founder
 
-Developed Catalyst and Ruby on Rails codebase that emphasized a JSON API to pass messages between 
-applications.  Used CoffeeScript and LESS for UX components.  Client has been happy with deliverables produced on time and 
-to their specifications.
-
-Submitted a patch to the MojoMojo wiki that allows users to switch between Textile and Markdown wiki markup.
-
-Created a web crawler to index all electrical engineers from Australia's YellowPages using Web::Scraper. The time constraint was great on this, less than 36 hours, and the client was very happy with the result.
-
 ## January 2012 - April 2012 Ionzero, LLC
 
 ### Software Engineer
@@ -113,13 +86,6 @@ Worked on a large, legacy Perl application that deals with airline flights local
 ## September 2011 - December 2011 ExposureManager, LLC
 
 ### Senior Software Developer
-
-Worked on a Perl+MySQL backed web application with a heavily jQuery oriented front end that dealt with large numbers (15k photo batches in some instances) of photographs.
-Worked on building a Catalyst application backed by PostgreSQL using DBIx::Class, Bread::Board, and Message::Stack.
-
-Main highlights include architecting a sane git workflow for users who weren't familiar with git, as well as building a well rounded infrastructure for PostgreSQL database schemata,
-and the Catalyst web application.  Also created a simple, but flexible JSON API that allowed for easy interfacing with Ajax requests and providing a scalable and easy to use internal application
-API, while remaining extensible and decoupled. Built a Facebook style "infinite scroller" for photo galleries using jQuery.
 
 ## February 2011 - September 2011 SocialFlow, LLC
 
