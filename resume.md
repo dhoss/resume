@@ -49,7 +49,7 @@ Worked on maintaining configuration for DNA application stacks
 
 Built tools to help with my day to day work
 
-## April 2006  - August 2012 CodedRight.net
+## April 2006  - August 2012 CodedRight
 
 ### Independent Contractor/Founder
 
