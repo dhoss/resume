@@ -14,7 +14,7 @@ I build web applications and have experience with many common frameworks in seve
 I learn very well, and am extremely tenacious when it comes to getting things done and figuring things out.  I've had a good deal of experience with high pressure situations
 that require fast action, precise movements, and critical thinking skills in order to get something done, or fixed.  In my experience, good software is developed by combining research, planning, quick and iterative development cycles, testing and communication.  I spend my time making sure I have the information required to build the best product that I can in the time given, and I make sure I have the tools and knowledge to do so.
 
-In summation, you give me a specification, and I'm going to do everything in my power to produce a reusable, extensible, fast and efficient solution for you, on time, and with a smile.
+In summation, give me a specification, and I'm going to do everything in my power to produce a reusable, extensible, fast and efficient solution for you, on time, and with a smile.
 
 # Skills
 
