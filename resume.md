@@ -34,24 +34,62 @@ Give me a specification, I will do everything in my power to produce a reusable,
 ## October 2016 - Present Ancestry.com
 
 ### DNA Platform - Senior Software Engineer
-Designed and implemented a Spring Boot application to manage provisioning EC2 instances and
+Designed and implemented a Spring Boot Java application to manage provisioning EC2 instances, docker and
 data extraction for DNA scientists, which ended up saving the team
-about 3 months of training and development time.  Also built the build and deploy
-system using Jenkins and AWS.
+about 3 months of training and development time.  
 
 Set up a more robust build system for an existing application that has
 helped through numerous deployments and disasters.
 
+Mentored junior and less experienced developers through various application development systems, deployment procedures and coding best practices.  
+
+Built out and configured several build and deploy environments using Jenkins pipelines, EC2, git, Docker and bash.
+
+Wrote a blue/green deployment script in bash to handle deployments using EC2 and Autoscaling Groups, and deploying the application to the newly spun up instances using Docker
+
 ## August 2012 - October 2016 Ancestry.com
 
 ### Devops - Software Developer
-Worked on maintaining configuration for DNA application stacks
+Worked on maintaining configuration for DNA application stacks through Chef
 
-Built tools to help with my day to day work
+Built various data migration scripts, data transformation scripts, and a small Go web service that handled kicking off recurring billing jobs.
+
+Built a tool in go to handle a massive SQL Server data transformation and migration
+
+Wrote several tools to handle several large image imports and mysql data migrations for an image service that handled several terabytes of image data
+
+Maintained and added several features to an existing, large, legacy, high traffic image service written in Perl, running on AWS, using MySQL as the metadata backend and S3 for image storage.  
+
+Worked on building a testing framework for a large .NET application using C#, Selenium, Fitnesse and Jenkins.
+
+Managed configuration, build, and deployment for several applications spanning across Linux, Windows and various different application frameworks.  Since there was only a manual process to handle these deployments, I wrote several tools to help make things more stable.
+
+Deployed Nagios to several disparate systems using Ansible.
 
 ## April 2006  - August 2012 CodedRight
 
 ### Independent Contractor/Founder
+
+Built several small web applications for various clients' websites using Perl 
+
+Built a document storage web application that was intended to serve as a document sharing website for various businesses in Perl, running on AWS
+
+Managed and wrote a database and file data migration script in Perl to move data from a previously used
+OpenInteract application to a new Catalyst+DBIx::Class web application backed by MySQL and MogileFS.
+
+Built a search engine feature that uses Data::SearchEngine and DBIx::Class to search based on racing class
+types, race tracks, and other such race track and car class based data. (Perl)
+
+Wrote a geocoding feature that calculates the distance of a track from a given city name or zip code and
+returns tracks within a chosen radius (5, 10, 15 miles etc) of city/zip code based on Geo::Coder and
+DBIx::Class (Perl)
+
+Implemented a materialized path structure for managing virtual directories for website assets and file data in
+the database based upon DBIx::Class::Tree::Ordered::MaterializedPath, allowing administrators to have a file
+system view of website assets. (Perl)
+
+Developed Catalyst and Ruby on Rails codebase that used a JSON API to pass messages between
+applications
 
 ## January 2012 - April 2012 Ionzero, LLC
 
@@ -59,23 +97,15 @@ Built tools to help with my day to day work
 
 Worked on a large, legacy Perl application that deals with airline flights locally and internationally.
 
-## September 2011 - December 2011 ExposureManager, LLC
+Built out features dealing with parsing data coming from airline flight systems such as Sabre.
 
-### Senior Software Developer
+Worked on designing and building a metadata storage application for an ad audit service 
 
-## February 2011 - September 2011 SocialFlow, LLC
+Built an application to act as a proxy between a front facing php web application and a storage file system that
+handles upwards of 6,000 file uploads a day via the API that handles XML, JSON and plain HTTP data. Built
+using Catalyst and Plack
 
-### Product Engineer
-
-## May 2009 - February 2011 Ionzero, LLC
-
-### IT Consultant
-
-## January 2010 - April 2010 Nasa Pro Racing
-
-### IT Consultant
-
-## April 2009-September 2009 Google Summer of Code
+Built and designed a proof of concept application for ChannelMeter.com, a YouTube analytics website
 
 ### Programmer
 
