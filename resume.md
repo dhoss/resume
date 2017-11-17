@@ -151,7 +151,7 @@ Published many articles regarding perl, a few of which are listed here:
 
 [Next Page Redirect after Login](http://dev.catalyst.perl.org/wiki/wikicookbook/nextpageredirect)
 
-[Plack and Catalyst](thttp://www.catalystframework.org/calendar/2009/23)
+[Plack and Catalyst](http://www.catalystframework.org/calendar/2009/23)
 
 [Trees in SQL with Catalyst](http://www.catalystframework.org/calendar/2009/13)
 
