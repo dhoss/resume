@@ -52,7 +52,7 @@ Wrote a blue/green deployment script in bash to handle deployments using EC2 and
 ### Devops - Software Developer
 Worked on maintaining configuration for DNA application stacks through Chef
 
-Built various data migration scripts, data transformation scripts, and a small Go web service that handled kicking off recurring billing jobs.
+Built various data migration scripts, data transformation scripts, and a small Go cron job that handled kicking off recurring billing jobs.
 
 Built a tool in go to handle a massive SQL Server data transformation and migration
 
