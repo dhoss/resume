@@ -27,11 +27,23 @@ Give me a specification, I will do everything in my power to produce a reusable,
 * AWS
 * Various SQL database flavors (Postgres, MySQL)
 * Ansible
+* Terraform
 
 
 # Professional Experience
 
 ## October 2016 - Present Ancestry.com
+
+### DNA Data Science Platform - Senior Software Engineer
+Extracted EC2 orchestration functionality from a Spring Boot application into its own application and extended its functionality to set up a workstation environment for DNA scientists using SSM for secure remote shell command execution, Docker for scientist workspaces, S3 for genomic dataset storage, and EBS volumes for local persistent storage, and MySQL Aurora for metadata, resource state and action history storage.
+
+Set up a build system using Jenkins 2 Pipelines to deploy the application to EC2 instances running Docker on CoreOS
+
+Used Terraform to set up all required IAM roles, policies, and other resources (S3 buckets, Aurora clusters, SSM documents)
+
+Handled every aspect of the aforementioned application from designing and implementing both application and infrastructure architecture, consulting and interfacing with and for various teams to obtain and provide insight on the best route to take with heavy time restrictions.
+
+Successfully launched beta version of orchestration application to a select group of scientists after overcoming a lot of infrastructure adversity with minimal support
 
 ### DNA Platform - Senior Software Engineer
 Designed and implemented a Spring Boot Java application to manage provisioning EC2 instances, docker and
