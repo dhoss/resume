@@ -9,7 +9,7 @@ devin.austin@gmail.com
 
 ## Summary: I am a web software developer.
 
-I build web applications. I learn quickly. I'm extremely tenacious when it comes to getting things done and figuring things out.  I have experience with high pressure situations that require fast action, precise movements and critical thinking skills. Good software is developed by combining research, planning, quick iterations, testing, and communication.  I build the best product that possible, in the time given. I make sure I have the tools and knowledge required to do so.
+I build web applications. I learn quickly. I'm extremely tenacious when it comes to getting things done and figuring things out.  I have experience with high pressure situations that require fast action, precise movements and critical thinking skills. Good software is developed by combining research, planning, quick iterations, testing, and communication.  I build the best product that is possible, in the time given. I make sure I have the tools and knowledge required to do so.
 
 Give me a specification, I will do everything in my power to produce a reusable, extensible, fast, and efficient solution; on time, and with a smile.
 
