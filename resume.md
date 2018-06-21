@@ -18,9 +18,10 @@ Give me a specification, I will do everything in my power to produce a reusable,
 ## Languages
 
 * Java
-* Go
+* Python
 * C#
 * Ruby
+* Go
 
 ## Applications/Technologies
 
@@ -33,7 +34,16 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 # Professional Experience
 
-## October 2016 - Present Ancestry.com
+## April 2018 - Present Enlitic
+
+### Senior Software Engineer 
+Architected, planned and built out tooling to help data scientists manage deep learning modeling code snapshots
+
+Consulted and improved build and deploy processes for various applications
+
+Advised on AWS practices
+
+## October 2016 - April 2018 Ancestry.com
 
 ### DNA Data Science Platform - Senior Software Engineer
 Extracted EC2 orchestration functionality from a Spring Boot application into its own application and extended its functionality
