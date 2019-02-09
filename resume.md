@@ -17,24 +17,30 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 ## Languages
 
+* Scala
 * Java
 * Python
-* C#
 * Ruby
-* Go
 
 ## Applications/Technologies
 
 * AWS
    * S3, RDS/Aurora, IAM policies, SSM documents, EC2, KMS secrets, Cloudformation
 * Various SQL database flavors (Postgres, MySQL)
+* Kafka
 * Ansible
 * Terraform
 
 
 # Professional Experience
 
-## April 2018 - Present Enlitic
+## September 2018 - Present: Charter/Spectrum
+### Senior Software Engineer
+Benchmarked protobuf serialization for kafka interaction in Scala
+
+Wrote critical parts of a CQRS system with memory-authoritative state backed by mongodb and kafka for event sourcing and persistence.
+
+## April 2018 - September 2018: Enlitic
 
 ### Senior Software Engineer 
 Architected, planned and built out tooling to help data scientists manage deep learning modeling code snapshots
@@ -43,7 +49,7 @@ Consulted and improved build and deploy processes for various applications
 
 Advised on AWS practices
 
-## October 2016 - April 2018 Ancestry.com
+## October 2016 - April 2018: Ancestry.com
 
 ### DNA Data Science Platform - Senior Software Engineer
 Extracted EC2 orchestration functionality from a Spring Boot application into its own application and extended its functionality
@@ -68,7 +74,7 @@ Built out and configured several build and deploy environments using Jenkins pip
 
 Wrote a blue/green deployment script in bash to handle deployments in AWS
 
-## August 2012 - October 2016 Ancestry.com
+## August 2012 - October 2016: Ancestry.com
 
 ### Devops - Software Developer
 Worked on maintaining configuration for DNA application stacks through Chef
@@ -87,7 +93,7 @@ Managed configuration, build, and deployment for several applications spanning a
 
 Deployed Nagios to several disparate systems using Ansible.
 
-## April 2006  - August 2012 CodedRight
+## April 2006  - August 2012: CodedRight
 
 ### Independent Contractor/Founder
 
@@ -112,7 +118,7 @@ system view of website assets. (Perl)
 Developed Catalyst and Ruby on Rails codebase that used a JSON API to pass messages between
 applications
 
-## January 2012 - April 2012 Ionzero, LLC
+## January 2012 - April 2012: Ionzero, LLC
 
 ### Software Engineer
 
