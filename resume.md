@@ -160,17 +160,11 @@ Participated in CANVAS - A network security exploitation convention/workshop two
 
 ### Software I've written:
 
-  * [ceramiccatepottery.com](http://www.ceramiccatepottery.com) - An image gallery and administrative interface for my wife's pottery business.
-                                                                  Built using Java (Spark Web framework + jooq), Postgresql 9.4, Varnish, Cloudflare CDN, Nginx and Ansible.  Using webpack to manage static assets.
-
-  * [Steel](https://github.com/dhoss/steel) - An excuse to learn Scala, and initially a work out tracker web application built using the Play! web framework and the Slick FRM for database access.
+  * [Smough](https://github.com/dhoss/smough) - A blog written in Scala, very pre-alpha.
 
   * [Treeify](https://rubygems.org/gems/treeify) - A gem to allow you to make recursive queries using Postgres and CTE (WITH RECURSIVE, to be more precise) and get a tree-like data structure in return.
 
   * [Fluorescent](https://rubygems.org/gems/fluorescent) - A small gem to highlight search terms in search results.
-
-  * [Kodiak](https://github.com/dhoss/Kodiak) - A Ruby on Rails CMS under development with an emphasis on threaded discussions, photo galleries, and being easily managed.
-
 
 ## Identities and resources
 
