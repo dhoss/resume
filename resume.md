@@ -36,9 +36,15 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 ## September 2018 - Present: Charter/Spectrum
 ### Senior Software Engineer
-Benchmarked protobuf serialization for kafka interaction in Scala
+Benchmarked Protocol Buffer serialization for Kafka interaction in Scala.
 
-Wrote critical parts of a CQRS system with memory-authoritative state backed by mongodb and kafka for event sourcing and persistence.
+Wrote the majority of the Protocol Buffer implementation in our code base and have been an authoratative resource for other team mates.
+
+Worked on system to reconcile entitlements to customers using CQRS.  Most data is held in memory and persisted to various mongo databases.  Interservice communication is done using Kafka and Protocol Buffers.  
+
+Wrote an in-memory service to normalize various pieces of customer to short integers to make transmitting data over Protocol Buffers leaner.
+
+Implemented various REST endpoints and an HTTP client to take requests from various clients and pass them to a service that retrieves customer account information and entitlements and compare the response with my team's current dataset and send out various notifications respective of any differences.
 
 ## April 2018 - September 2018: Enlitic
 
