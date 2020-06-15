@@ -26,15 +26,39 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 * AWS
    * S3, RDS/Aurora, IAM policies, SSM documents, EC2, KMS secrets, Cloudformation
-* Various SQL database flavors (Postgres, MySQL)
+* Various SQL database flavors (Postgres, MySQL, SQL Server)
+* Cassandra
 * Kafka
+* Akka
+* Kubernetes
 * Ansible
 * Terraform
 
 
 # Professional Experience
 
-## September 2018 - Present: Charter/Spectrum
+## June 2019 - Present: TalentReef
+### Senior Software Engineer
+Contributed to bringing up test coverage for several legacy Scala Play applications that were built in a manner not very conducive to testing (no dependency injection, cake pattern, etc)
+
+Added features across several CQRS based Scala microservices, using Akka, Kafka, SQL Server, and Cassandra, running on AWS EKS.
+
+Wrote a small tool to migrate from our version of Kong API gateway to the newest version.  Included in this was functionality to interact with our Kong service registration application to automate the process.
+
+
+Worked on solving application issues related to memory leaks and long standing timezone problems when sending out calendar invites through our application
+
+Wrote several critical features under strict time constraints including:
+* an everify API proxy to handle applicant employment verification requests
+* an Akka based user provisioning retry feature for a high profile client that allows onboarders to retry user provisioning if requests fail between the two systems.  
+
+Advised on several tech decisions, including incorporating the usage of terraform for infrastructure changes, and using flywaydb for database migrations.
+
+Took charge of developing a new greenfield Java service to manage and orchestrate client data replication across environments.  Handled the vast majority of design and implementation for the API contracts, code reviews, sustainable code development and design practices, organized testing (including the use of data fixtures across tests using common data and objects).  Rewrote large portions of the code that were done hastily in an unsustainable fashion and ran daily sync up meetings between the other developer working on the project.
+
+Contributed to making sure stories in grooming meetings were clear and concise, and got the team started on breaking out stories into smaller, decoupled pieces that helped developers work asynchronously and not duplicate work, as well as organizing work into smaller, more manageable chunks.
+
+## September 2018 - June 2019: Charter/Spectrum
 ### Senior Software Engineer
 Benchmarked Protocol Buffer serialization for Kafka interaction in Scala.
 
