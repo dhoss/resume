@@ -19,6 +19,7 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 * Scala
 * Java
+* Go
 * Python
 * Ruby
 
