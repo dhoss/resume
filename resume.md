@@ -44,7 +44,7 @@ Worked on a Spring Boot application that read trading data messages from a Kafka
 
 Main contributions consisted of implementing a data transformation layer to globally (all messages encountered) flatten nested Avro arrays and structs/maps, trim whitespace, and then handle transformations for specific message types which included converting binary field values into their string hex representation, and manage Avro schema versions on a per message type basis, tracking down insufficient retry logic for connecting to Glue, and various day to day Kubernetes configuration changes and administration pertaining to the parquet writer application.
 
-## June 2019 - Present: TalentReef
+## June 2019 - June 2020: TalentReef
 ### Senior Software Engineer
 Contributed to bringing up test coverage for several legacy Scala Play applications that were built in a manner not very conducive to testing (no dependency injection, cake pattern, etc)
 
