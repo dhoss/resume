@@ -26,7 +26,7 @@ Give me a specification, I will do everything in my power to produce a reusable,
 ## Applications/Technologies
 
 * AWS
-   * S3, RDS/Aurora, IAM policies, SSM documents, EC2, KMS secrets, Cloudformation
+   * S3, RDS/Aurora, IAM policies, SSM documents, EC2, KMS secrets, Cloudformation, Glue, Athena
 * Various SQL database flavors (Postgres, MySQL, SQL Server)
 * Cassandra
 * Kafka
