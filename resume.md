@@ -38,6 +38,12 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 # Professional Experience
 
+## June 2020 - December 2020: NASDAQ
+### Software Consultant
+Worked on a Spring Boot application that read trading data messages from a Kafka stream and wrote them out as parquet files to S3 and inserted records into a Glue catalogue.  
+
+Main contributions consisted of implementing a data transformation layer to globally (all messages encountered) flatten nested Avro arrays and structs/maps, trim whitespace, and then handle transformations for specific message types which included converting binary field values into their string hex representation, and manage Avro schema versions on a per message type basis, tracking down insufficient retry logic for connecting to Glue, and various day to day Kubernetes configuration changes and administration pertaining to the parquet writer application.
+
 ## June 2019 - Present: TalentReef
 ### Senior Software Engineer
 Contributed to bringing up test coverage for several legacy Scala Play applications that were built in a manner not very conducive to testing (no dependency injection, cake pattern, etc)
