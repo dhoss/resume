@@ -38,6 +38,16 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 # Professional Experience
 
+## January 2022 - Present: HelioHealth
+
+## January 2021 - January 2022: Charter/Spectrum
+### Senior Software Engineer Contractor
+Built REST service to create generic mock service request/response definitions for the QA/testing team that allowed them to mock various test scenarios while testing.  There was nothing that did what the testing team was looking for, and existing integration tests were tightly coupled with legacy code, so I proposed a solution and was able to implement a cost effective solution using DynamoDB as a data store that was cheaper than the Mongo data store that was already in place.  The resulting service was small, clean, flexible, fast (upwards of 1000 requests/second with reads) and cheap.
+
+Added REST client integrations to consume multiple, separate internal APIs for various subscriber package entitlements.
+
+Refactored existing entitlement calls that obtain various subscriber entitlement codes to use new internal API endpoints and fall through gracefully depending on the initial API call response.
+
 ## June 2020 - December 2020: NASDAQ
 ### Software Consultant
 Worked on a Spring Boot application that read trading data messages from a Kafka stream and wrote them out as parquet files to S3 and inserted records into a Glue catalogue.  
