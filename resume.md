@@ -24,13 +24,11 @@ Give me a specification, I will do everything in my power to produce a reusable,
 ## Applications/Technologies
 
 * AWS
-   * S3, RDS/Aurora, IAM policies, SSM documents, EC2, KMS secrets, Cloudformation, Glue, Athena, DynamoDB
+   * S3, RDS/Aurora, IAM policies, SSM documents, EC2, KMS secrets, Cloudformation, Glue, Athena, DynamoDB, Batch, EventBridge, Fargate
 * Various SQL database flavors (Postgres, MySQL, SQL Server)
 * Cassandra
 * Kafka
-* Akka
 * Kubernetes
-* Ansible
 * Terraform
 
 
@@ -51,6 +49,12 @@ Integrated a Spring Boot application with HAPI, a Java HL7 implementation
 Set up SSO and a VPN on AWS using Terraform for various environment authentication
 
 Set up a small Spring Boot application to handle Office 365 authentication for company wide authentication
+
+Built out test data generation service to allow users to populate various Salesforce based objects through Lockbox using REST
+
+Managed design, planning and implementation of all previously mentioned projects almost completely independently with minimal instruction or feedback from superiors
+
+Handled constant context switching and pivoting with very little in the way of structure or agile/scrum planning
 
 ## January 2021 - January 2022: Charter/Spectrum
 ### Senior Software Engineer Contractor
