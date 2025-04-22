@@ -17,11 +17,9 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 ## Languages
 
-* Scala
 * Java
-* Go
+* Scala
 * Python
-* Ruby
 
 ## Applications/Technologies
 
@@ -39,6 +37,20 @@ Give me a specification, I will do everything in my power to produce a reusable,
 # Professional Experience
 
 ## January 2022 - Present: HelioHealth
+### Senior Software Engineer
+Built an SMS appointment reminder service that patients could sign up for and receive appointment reminders at configured intervals.  The service used a simple FSM and scheduler to persist each patient's reminder status.
+
+Built several services to integrate with various vendor APIs, spanning from payment systems like Chargebee to patient and doctor CRMs such as Kareo.
+
+Built and deployed a payment batch processing system running on Fargate, Batch and EventBridge to handle scheduled ingestion of Excel files containing patient billing information into Oracle NetSuite.
+
+Built a simple fuzzing application for testing UI features using Playwright
+
+Integrated a Spring Boot application with HAPI, a Java HL7 implementation
+
+Set up SSO and a VPN on AWS using Terraform for various environment authentication
+
+Set up a small Spring Boot application to handle Office 365 authentication for company wide authentication
 
 ## January 2021 - January 2022: Charter/Spectrum
 ### Senior Software Engineer Contractor
