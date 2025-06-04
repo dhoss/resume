@@ -34,6 +34,9 @@ Give me a specification, I will do everything in my power to produce a reusable,
 
 # Professional Experience
 
+## June 2025 - Present: Empower
+### Senior Software Engineer
+
 ## January 2022 - April 2025: HelioHealth
 ### Senior Software Engineer
 Built an SMS appointment reminder service that patients could sign up for and receive appointment reminders at configured intervals.  The service used a simple FSM and scheduler to persist each patient's reminder status.
