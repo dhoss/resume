@@ -37,6 +37,8 @@ Give me a specification, I will do everything in my power to produce a reusable,
 ## June 2025 - Present: Empower
 ### Senior Software Engineer
 
+Inherited and greatly enhanced an ANTLR4 based Java code validation project created to validate code from projects being migrated from 1990's ProC code to Spring Boot 3 Rest services.
+
 ## January 2022 - April 2025: HelioHealth
 ### Senior Software Engineer
 Built an SMS appointment reminder service that patients could sign up for and receive appointment reminders at configured intervals.  The service used a simple FSM and scheduler to persist each patient's reminder status.
