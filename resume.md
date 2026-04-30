@@ -45,6 +45,8 @@ Developed code based rule definitions and a rule execution engine that allowed f
 
 Handled design, development, documentation, build and release for all of the above nearly completely independently.  Managed bug fixes, rule definition refinement, integrating user feedback changes and digging into issues related to edge cases that weren't being detected properly in certain projects.
 
+Mentored a junior developer that contributed changes to the project.  Paired, code reviewed and assigned tasks aimed at onboarding him onto the application and becoming familiar enough to make consistent changes.  Gathered feedback as well regarding the ergonomics of the API I'd put together for developing new rules.
+
 ## January 2022 - April 2025: HelioHealth
 ### Senior Software Engineer
 Built an SMS appointment reminder service that patients could sign up for and receive appointment reminders at configured intervals.  The service used a simple FSM and scheduler to persist each patient's reminder status.
