@@ -37,7 +37,13 @@ Give me a specification, I will do everything in my power to produce a reusable,
 ## June 2025 - Present: Empower
 ### Senior Software Engineer
 
-Inherited and greatly enhanced an ANTLR4 based Java code validation project created to validate code from projects being migrated from 1990's ProC code to Spring Boot 3 Rest services.
+Inherited and made thorough enhancements to an ANTLR4 based Java code validation project created to validate code from projects being migrated from 1990's ProC code to Spring Boot 3 Rest services.
+
+Developed a maven plugin around said validation project that allowed developers to run it against their codebase and get a report detailing violations against the company coding standards defined to maintain parity between the new java codebases and the ProC modules they were being converted from.
+
+Developed code based rule definitions and a rule execution engine that allowed for reasonably flexible code standard rule implementations to parse and detect things like Spring annotations being used where required, POM dependencies meeting version requirements using Maven version ranges, transaction related method call counts, querying Oracle databases to verify per service error messages are populated, and ensuring DAO implementation classes have configuration dependencies injected that have the correct configuration annotations.
+
+Handled design, development, documentation, build and release for all of the above nearly completely independently.  Managed bug fixes, rule definition refinement, integrating user feedback changes and digging into issues related to edge cases that weren't being detected properly in certain projects.
 
 ## January 2022 - April 2025: HelioHealth
 ### Senior Software Engineer
