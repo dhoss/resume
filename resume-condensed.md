@@ -73,11 +73,6 @@ Handled constant context switching and pivoting with very little in the way of s
 
 ## January 2021 - January 2022: Charter/Spectrum
 ### Senior Software Engineer Contractor
-Built REST service to create generic mock service request/response definitions for the QA/testing team that allowed them to mock various test scenarios while testing.  There was nothing that did what the testing team was looking for, and existing integration tests were tightly coupled with legacy code, so I proposed a solution and was able to implement a cost effective solution using DynamoDB as a data store that was cheaper than the Mongo data store that was already in place.  The resulting service was small, clean, flexible, fast (upwards of 1000 requests/second with reads) and cheap.
-
-Added REST client integrations to consume multiple, separate internal APIs for various subscriber package entitlements.
-
-Refactored existing entitlement calls that obtain various subscriber entitlement codes to use new internal API endpoints and fall through gracefully depending on the initial API call response.
 
 ## June 2020 - December 2020: NASDAQ
 ### Software Consultant
@@ -136,5 +131,5 @@ Participated in CANVAS - A network security exploitation convention/workshop two
 
   * [Juke](https://github.com/dhoss/juke) - An attempt to rewrite the ancient phpnuke cms in Java using Spring Boot 3 and Postgres
 
-  * [Trayzn](https://github.com/dhoss/trayzn/) - A simple bookmarking service written in Java using Spring Boot 3 and Postgres.  Browser extension code is located here: [](https://github.com/dhoss/trayzn-chrome-extension)
+  * [Trayzn](https://github.com/dhoss/trayzn/) - A simple bookmarking service written in Java using Spring Boot 3 and Postgres.  Browser extension code is located here: [trayzn-chrome-extension](https://github.com/dhoss/trayzn-chrome-extension)
 
